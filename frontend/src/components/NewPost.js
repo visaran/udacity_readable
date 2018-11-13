@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Form, Button, Header } from 'semantic-ui-react';
-import { Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class NewPost extends Component {
   render() {
     return(
       <div>
+        <Link to="/">home</Link>
         <Header as='h1'>
           Edit Post
         </Header>
